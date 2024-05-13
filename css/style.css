@@ -1,0 +1,174 @@
+/* common */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* header */
+header{
+    padding-top: 30px;
+    background: linear-gradient(-45deg, rgba(51, 51, 50, 0.8), rgba(46, 46, 46, 0.8)) fixed, url(/img/background-image.jpeg) fixed;
+    background-size: cover;
+}
+.top-part{
+    max-width: 1024px;
+    margin: auto;
+}
+/* nav */
+/* logo */
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-logo img{
+    height: 50px;
+    width: 50px;
+}
+/* menu */
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+/* banner */
+.banner{
+    display: flex;
+}
+.title{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.title>h1{
+    font-size: 40px;
+    margin: 0 0 20px 0;
+}
+.banner-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.banner-img img{
+    width:  50%;
+    height: 100%;
+}
+
+
+/* main */
+main{
+    max-width: 1024px;
+    margin: auto;
+}
+.logo-img{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(248, 247, 243);
+    padding: 25px;
+    margin-bottom: 100px;
+}
+.logo-img img{
+    width:  100px;
+    height: 100px;
+}
+.service-title{
+    text-align: center;
+}
+.service-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moto{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 30px;
+    width: 250px;
+    height: 300px;
+    margin: 10px 10px;
+}
+.card>.img1{
+    width: 100px;
+    height: 100px;
+}
+.card>h3{
+    margin: 20px 0;
+}
+.card>h5{
+    margin-top: 20px;
+}
+.hire-us{
+    width: 50%;
+    /* display: flex; */
+}
+
+.consult{
+    display: flex;
+}
+
+footer{
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+li{
+    list-style: none;
+    margin: 5px 0;
+}
+.footer-logo{
+    width: 200px;
+    height: 400px;
+}
+.footer-logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+   
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact p{
+    margin: 20px 0;
+}
+.newsletter{
+    width: 30%;
+}
+.newsletter p{
+    margin: 20px 0;
+}
